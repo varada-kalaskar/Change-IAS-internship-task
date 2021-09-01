@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="change_IAS.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/bb16f63c19.js" crossorigin="anonymous"></script>
+    <title>Change IAS</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <!--BLANK-->
+            </div>
+            <div class="col-md-10">
+                <div class="topnav">
+                    <input class="search" type="text" placeholder="Search here.."></input>
+                    <div class="dropdown downapp">
+                        <button class="dropbtn" style="border: none;">Download App <i class="fas fa-angle-down"></i> </button>
+                        <div class="dropdown-content">
+                        <!-- <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a> -->
+                        </div>
+                    </div>
+                    <a href="#"><i class="far fa-comment-alt" style="font-size: 3.5vh;"></i></a>
+                    <a href="#"><i class="fas fa-bullhorn" style="font-size: 3.5vh;"></i></a>
+                    <a href="#"><i class="fas fa-plus-circle" style="font-size: 3.5vh;"></i></a>
+                    <a href="#"><i class="fas fa-cog" style="font-size: 3.5vh;"></i></a>
+                    <a href="#"><i class="far fa-user" style="font-size: 3.5vh;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <ul class="horz">
+                    <li class="headingitem">CHANGE IAS</li>
+                    <li class="hitem"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-th"></i> Dashboard</a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-users"></i> Leads  <i class="fas fa-angle-right"></i></a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-user-graduate"></i> Students</a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-receipt"></i> Fees <i class="fas fa-angle-right"></i></a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-user-tie"></i> Teachers</a></li>
+                    <div class="classes"><li class="hitem"><a href="#"><i class="fas fa-chalkboard-teacher"></i> Classes <i class="fas fa-angle-right"></i></a>
+                        <div class="dropdown-contentc">
+                            <a href="#">Setup</a>
+                            <a href="#">Courses</a>
+                            <a href="#">Schedule</a>
+                            <a href="#">Attendance</a>
+                            <a href="#">TimeTable</a>
+                            <a href="#">Course Deletion</a>
+                        </div>
+                    </li>
+                    </div>
+                    <li class="hitem"><a href="#"><i class="far fa-newspaper"></i> Exams <i class="fas fa-angle-right"></i></a></li>
+                    <li class="hitem"><a href="#"><i class="far fa-id-card"></i> Live Classes <i class="fas fa-angle-right"></i></a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-user"></i> Users</a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-user-check"></i> Attendance <i class="fas fa-angle-right"></i></a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-book"></i> Content Library <i class="fas fa-angle-right"></i></a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-desktop"></i> Online Test</a></li>
+                    <li class="hitem"><a href="#"><i class="far fa-comment"></i> Communicate <i class="fas fa-angle-right"></i></a></li>
+                    <li class="hitem"><a href="#"><i class="fas fa-shopping-cart"></i> Store <i class="fas fa-angle-right"></i></a></li>
+                  </ul>
+            </div>
+            <div class="col-md-10">
+                <div class="topnav">
+                    <a href="change_IAS.html">Courses</a>
+                    <a href="#news">Standard</a>
+                    <a class="active" href="subject.html">Subject</a>
+                    <a href="#about">Topic</a>
+                    <a href="#about">Ecourse Mapping</a>
+                </div>
+                <div class="row">
+                    <div class="dropdown">
+                        <button class="dropbtn" style="border: none;">Select Standard <i class="fas fa-angle-down side"></i></button>
+                        <div class="dropdown-content">
+                        <!-- <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a> -->
+                        </div>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="active" name="active" value="Is Active">
+                        <label for="active"> Is Active</label>
+                    </div>
+                    <input class="searchsub" type="text" placeholder="Search">
+                    <button class="addsub">Add Subject</button>
+                </div>
+                <div class="row">
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Standard</th>
+                            <th>Subject</th>
+                            <th>Subject Code</th>
+                            <th>Added Date</th>
+                            <th>Actions</th>
+                        </tr>
+                        <tr>
+                            <td>75530</td>
+                            <td>BATCH 1</td>
+                            <td>Ancient, Medival India & Art and Culture</td>
+                            <td>0005</td>
+                            <td>25-May-21</td>
+                            <td><i class="fas fa-pencil-alt " style="color: gray;"></i>  <i class="far fa-trash-alt" style="color: gray;"></i></td>
+                        </tr>
+                        <tr>
+                            <td>75530</td>
+                            <td>BATCH 1</td>
+                            <td>Current Affairs</td>
+                            <td>0007</td>
+                            <td>25-May-21</td>
+                            <td><i class="fas fa-pencil-alt " style="color: gray;"></i>  <i class="far fa-trash-alt" style="color: gray;"></i></td>
+                        </tr>
+                        <tr>
+                            <td>75530</td>
+                            <td>BATCH 1</td>
+                            <td>Disaster Management</td>
+                            <td>0012</td>
+                            <td>25-May-21</td>
+                            <td><i class="fas fa-pencil-alt " style="color: gray;"></i>  <i class="far fa-trash-alt" style="color: gray;"></i></td>
+                        </tr>
+                        <tr>
+                            <td>75530</td>
+                            <td>BATCH 1</td>
+                            <td>Environment & Ecology</td>
+                            <td>0006</td>
+                            <td>25-May-21</td>
+                            <td><i class="fas fa-pencil-alt " style="color: gray;"></i>  <i class="far fa-trash-alt" style="color: gray;"></i></td>
+                        </tr>
+                        <tr>
+                            <td>75530</td>
+                            <td>BATCH 1</td>
+                            <td>Ethics</td>
+                            <td>0008</td>
+                            <td>25-May-21</td>
+                            <td><i class="fas fa-pencil-alt " style="color: gray;"></i>  <i class="far fa-trash-alt" style="color: gray;"></i></td>
+                        </tr>
+                        <tr>
+                            <td>75530</td>
+                            <td>BATCH 1</td>
+                            <td>General Science- Science & Tech</td>
+                            <td>0014</td>
+                            <td>25-May-21</td>
+                            <td><i class="fas fa-pencil-alt " style="color: gray;"></i>  <i class="far fa-trash-alt" style="color: gray;"></i></td>
+                        </tr>
+                        <tr>
+                            <td>75530</td>
+                            <td>BATCH 3</td>
+                            <td>Geography</td>
+                            <td>0003</td>
+                            <td>25-May-21</td>
+                            <td><i class="fas fa-pencil-alt " style="color: gray;"></i>  <i class="far fa-trash-alt" style="color: gray;"></i></td>
+                        </tr>
+                        <tfoot style="background-color: #fff;">
+                        <tr>
+                            <th>Showing 1 to 17 of 17</th>
+                            <th>Total 1 pages</th>
+                            <th>Records perpage: 
+                                <div class="dropdown-contentc">
+                                    <a href="#">5</a>
+                                    <a href="#">10</a>
+                                    <a href="#">20</a>
+                                    <a href="#">25</a>
+                                    <a href="#">30</a>
+                                </div>
+                            </th>
+                            
+                            <th class="expand">Previous<button class="sq">1</button> Next </th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        </tfoot>
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
